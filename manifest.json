@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Informer",
+  "description": "Quick glimpse on key information",
+  "version": "0.1",
+   
+   "browser_action": {
+      "default_icon": "icons/message_chat_text_bubble_phone-256.png",
+      "default_popup": "popup.html"
+   },
+
+    "permissions": ["tabs", "<all_urls>"]
+}
